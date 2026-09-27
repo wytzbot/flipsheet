@@ -1,0 +1,9 @@
+{
+  "name": "sheetops-api",
+  "private": true,
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "firebase-admin": "^13.4.0",
+    "google-auth-library": "^10.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+FLIPSHEET PHONE-FRIENDLY CONFIG CHECKLIST
+=========================================
+
+[ ] 1. Vercel deployed
+[ ] 2. Vercel env variables added
+[ ] 3. Firebase Auth + Firestore + FCM enabled
+[ ] 4. FIREBASE_WEB_CONFIG added to Vercel
+[ ] 5. FIREBASE_VAPID_KEY added to Vercel
+[ ] 6. Google Cloud project created
+[ ] 7. Google Workspace Marketplace SDK enabled
+[ ] 8. Apps Script linked to the SAME Cloud project
+[ ] 9. Code.gs + Sidebar.html + appsscript.json copied
+[ ] 10. YOUR_DOMAIN replaced
+[ ] 11. Apps Script test deployment installed
+[ ] 12. Permissions approved
+[ ] 13. Analyze tested
+[ ] 14. Clean tested
+[ ] 15. Automation created
+[ ] 16. Run now tested
+[ ] 17. Repair schedule tested
+[ ] 18. Notifications tested
+[ ] 19. Flutterwave sandbox checkout tested
+[ ] 20. Marketplace configured only after everything above works
+
+DO NOT:
+- manually paste duplicate OAuth scopes
+- add Drive/Gmail/Calendar scopes without a feature that needs them
+- put Firebase service-account JSON in public files
+- put Flutterwave Client Secret in frontend code
+- create duplicate Apps Script triggers manually
+- publish to Marketplace before private testing works
